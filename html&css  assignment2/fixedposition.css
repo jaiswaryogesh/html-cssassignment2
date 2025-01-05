@@ -1,0 +1,52 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+nav {
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: 20px; 
+    float: right;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
+.content {
+    padding: 20px;
+    font-size: 18px;
+}
+.navbar{
+    margin-inline-end: auto;
+}
